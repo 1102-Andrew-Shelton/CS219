@@ -14,6 +14,10 @@ void Start(){
             Processor(LoadFile("Programming-Project-1.txt"));
 
     }
+    catch(const char* msg){
+        std::cout << msg;
+    }
+    
     catch(const std::exception &exc){
             std::cerr << exc.what();
 

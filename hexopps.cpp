@@ -3,7 +3,8 @@
 #include <iostream>
 #include "hexopps.h"
 
-long ConvertHexToDecimal(std::string hexFig) {
+using namespace std;
+long ConvertHexToDecimal(string hexFig) {
     long num = 0;
     int i = 0;
     char temp;
@@ -41,8 +42,8 @@ long ConvertHexToDecimal(std::string hexFig) {
 }
 
 
-std::string ConvertDecimalToHex(long decimalFig){
-        std::string hexNum;
+string ConvertDecimalToHex(long decimalFig){
+        string hexNum;
         int remainder;
 
         for (int i = 0; (remainder != 0) || (decimalFig != 0); i++){

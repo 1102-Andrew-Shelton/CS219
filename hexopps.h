@@ -3,9 +3,10 @@
 
 #include <string>
 
+using namespace std;
 
-long ConvertHexToDecimal(std::string hexFig);
-std::string ConvertDecimalToHex(long decimalFig);
+long ConvertHexToDecimal(string hexFig);
+string ConvertDecimalToHex(long decimalFig);
 long Add(long num1, long num2);
 
 #endif
