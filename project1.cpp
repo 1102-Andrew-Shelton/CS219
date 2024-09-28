@@ -1,3 +1,8 @@
+//Author: Andrew Shelton
+//Class: CS219
+//Purpose: To add two hex numbers together through the use of conversion.
+
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -5,6 +10,8 @@
 #include <stdint.h>
 #include <algorithm>
 #include <string>
+
+
 
 using namespace std;
 
